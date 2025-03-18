@@ -1,0 +1,14 @@
+serialization:
+  source: 'file'
+
+paths:
+  source_folder: 'Assets/'
+  json_source_file: 'data.json'
+  json_destination_file: 'data_mod2.json'
+  yaml_destination_file: 'data_ymod2.yaml'
+
+operations:
+  - 'somestats'
+  - 'allstats'
+  - 'serialize_json'
+  - 'convert_to_yaml'
